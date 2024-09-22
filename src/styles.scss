@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+
+.lemon-font {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+}
+
+h {
+  &1,
+  &2,
+  &3,
+  &4,
+  &5,
+  &6 {
+    @extend .lemon-font;
+  }
+}
